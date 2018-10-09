@@ -1,6 +1,6 @@
 version: "2"
 services:
-  employees-db:
+  affablebean-db:
     image: mysql:5
     ports:
       - 3306:3306
@@ -9,9 +9,3 @@ services:
       MYSQL_USER: user1
       MYSQL_PASSWORD: user1
       MYSQL_ROOT_PASSWORD: root
-#     volumes:
-#       - ./dump:/docker-entrypoint-initdb.d
-#       - persistent:/var/lib/mysql
-
-# volumes:
-#   ? persistent
